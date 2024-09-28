@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    background: radial-gradient(circle at 50% 50%, rgba(151, 147, 147, 1) 0%, rgb(0, 0, 0) 100%);
+    color: #fff;
+}
+
+.quote-box {
+    background: linear-gradient(88deg, rgba(93, 104, 105, 1) 37%, rgba(90, 2, 90, 1) 99%);
+    width: 700px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 20px 6px rgb(124 124 124);
+}
+
+.quote-box h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+
+.quote-box h2::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-box blockquote {
+    font-size: 26px;
+    min-width: 110px;
+
+}
+
+.quote-box blockquote::before,
+.quote-box blockquote::after {
+    content: '"';
+}
+
+.quote-box span {
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.quote-box span::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -35%;
+}
+
+.quote-box div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box button {
+    background: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #939393;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.quote-box img {
+    width: 50px;
+
+}
+
+.quote-box button:nth-child(2) {
+    background: transparent;
+    color: #FFFf;
+}
