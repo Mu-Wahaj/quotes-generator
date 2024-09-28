@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-
-
-
 * {
     padding: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
 }
-
 body {
     background: radial-gradient(circle at 50% 50%, rgba(151, 147, 147, 1) 0%, rgb(0, 0, 0) 100%);
     color: #fff;
 }
-
 .quote-box {
     background: linear-gradient(88deg, rgba(93, 104, 105, 1) 37%, rgba(90, 2, 90, 1) 99%);
     width: 700px;
